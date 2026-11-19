@@ -1,0 +1,8 @@
+validation: negative charge
+claim: claim above cover
+package: unknown package
+number: stod
+Resource released
+bad_alloc caught
+Resource released
+top-level catch-all recovered

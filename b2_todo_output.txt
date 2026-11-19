@@ -1,0 +1,4 @@
+approved 40000
+approved audit: exceeds cover
+claim rejected: exceeds cover
+approved error: negative amount

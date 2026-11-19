@@ -1,0 +1,92 @@
+[
+  {
+    "name": "b1_todo",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task01/complete_todo_b1.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b1_todo",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "OP Ravi: 1700\nIP Meena: 47500\nTotal 49200\n",
+    "stderr": ""
+  },
+  {
+    "name": "b1_billing",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task01/polymorphic_billing.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b1_billing",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "OP Ravi: 1700\nIP Meena: 47500\nDAYCARE Arun: 18000\nEMERGENCY Sara: 4000\nTotal 71200\nInsurance Ravi 1360\nCorporate Meena 38000\nSelfPay Arun 0\n",
+    "stderr": ""
+  },
+  {
+    "name": "b1_virtual",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task01/predict_virtual_destructor.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b1_virtual",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "500 ~OPBill ~Bill \n",
+    "stderr": ""
+  },
+  {
+    "name": "b2_todo",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task02/complete_todo_claim.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b2_todo",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "approved 40000\napproved audit: exceeds cover\nclaim rejected: exceeds cover\napproved error: negative amount\n",
+    "stderr": ""
+  },
+  {
+    "name": "b2_rethrow",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task02/predict_rethrow.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b2_rethrow",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "ok done caught negative [log too large] caught too large \n",
+    "stderr": ""
+  },
+  {
+    "name": "b2_errors",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task02/error_conditions.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b2_errors",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "validation: negative charge\nclaim: claim above cover\npackage: unknown package\nnumber: stod\nResource released\nbad_alloc caught\nResource released\ntop-level catch-all recovered\n",
+    "stderr": ""
+  },
+  {
+    "name": "b3_benchmark",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic -O2 /mnt/data/DSA01-RegisterNumber-Assignment5/Task03/benchmark.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b3_benchmark",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "n=1000 virtual_ms=0.00264 switch_ms=0.002379 variant_ms=0.002395\ntotals=1.78e+07,1.78e+07,1.78e+07\nn=1000000 virtual_ms=3.07206 switch_ms=4.2962 variant_ms=3.80518\nn=10000000 virtual_ms=32.6663 switch_ms=36.557 variant_ms=40.4678\n",
+    "stderr": ""
+  },
+  {
+    "name": "b3_exception_benchmark",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic -O2 /mnt/data/DSA01-RegisterNumber-Assignment5/Task03/exception_benchmark.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b3_exception_benchmark",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "invalid=0% return_code_ms=1.07348 exception_ms=0.924552\ninvalid=1% return_code_ms=1.18305 exception_ms=8.75685\ninvalid=50% return_code_ms=1.12541 exception_ms=382.731\n",
+    "stderr": ""
+  },
+  {
+    "name": "b4_extension",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic /mnt/data/DSA01-RegisterNumber-Assignment5/Task04/extension_and_safety.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b4_extension",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 0,
+    "stdout": "OP total=1700 corporate_cover=1275\nMATERNITY total=65000 corporate_cover=48750\ncaught: exceeds cover\nsanitizer test completed\n",
+    "stderr": ""
+  },
+  {
+    "name": "b4_asan",
+    "command": "g++ -std=c++17 -Wall -Wextra -pedantic -g -fsanitize=address -fno-omit-frame-pointer /mnt/data/DSA01-RegisterNumber-Assignment5/Task04/extension_and_safety.cpp -o /mnt/data/DSA01-RegisterNumber-Assignment5/outputs/b4_asan",
+    "compile_code": 0,
+    "compiler_output": "",
+    "run_code": 1,
+    "stdout": "",
+    "stderr": "==528==ASan runtime does not come first in initial library list; you should either link runtime to your application or manually preload it with LD_PRELOAD.\n"
+  }
+]

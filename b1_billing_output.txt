@@ -1,0 +1,8 @@
+OP Ravi: 1700
+IP Meena: 47500
+DAYCARE Arun: 18000
+EMERGENCY Sara: 4000
+Total 71200
+Insurance Ravi 1360
+Corporate Meena 38000
+SelfPay Arun 0

@@ -1,0 +1,11 @@
+## b3_benchmark
+n=1000 virtual_ms=0.00264 switch_ms=0.002379 variant_ms=0.002395
+totals=1.78e+07,1.78e+07,1.78e+07
+n=1000000 virtual_ms=3.07206 switch_ms=4.2962 variant_ms=3.80518
+n=10000000 virtual_ms=32.6663 switch_ms=36.557 variant_ms=40.4678
+
+## b3_exception_benchmark
+invalid=0% return_code_ms=1.07348 exception_ms=0.924552
+invalid=1% return_code_ms=1.18305 exception_ms=8.75685
+invalid=50% return_code_ms=1.12541 exception_ms=382.731
+
